@@ -99,7 +99,7 @@ const App = () => {
   return (
     <div className={dark ? "container dark" : "container"}>
       <header className={dark ? "header dark" : ""}>
-        <h1>Where in the world?</h1>
+        <h1>The World Database</h1>
         <button
           onClick={handleClick}
           className={dark ? "toggle dark" : "toggle"}
